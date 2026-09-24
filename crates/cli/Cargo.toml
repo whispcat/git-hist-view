@@ -1,0 +1,13 @@
+[package]
+name = "ghv-cli"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ghv"
+path = "src/main.rs"
+
+[dependencies]
+ghv-core.workspace = true
+ghv-parse.workspace = true

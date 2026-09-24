@@ -1,0 +1,12 @@
+[package]
+name = "ghv-wasm-parse"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ghv-parse.workspace = true
+wasm-bindgen.workspace = true

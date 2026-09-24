@@ -1,0 +1,12 @@
+[package]
+name = "ghv-core"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+flate2.workspace = true
+sha1.workspace = true
+imara-diff.workspace = true
+rustc-hash.workspace = true
+hashbrown.workspace = true

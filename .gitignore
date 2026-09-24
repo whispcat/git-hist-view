@@ -1,0 +1,12 @@
+/target
+node_modules
+/web/dist
+/web/.vite
+/web/src/wasm
+.wrangler
+.DS_Store
+/fixtures/repos
+/fixtures/synthetic
+/test-results
+/playwright-report
+AGENTS.md

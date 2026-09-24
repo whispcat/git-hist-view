@@ -1,0 +1,13 @@
+[package]
+name = "ghv-wasm-core"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ghv-core.workspace = true
+wasm-bindgen.workspace = true
+js-sys.workspace = true
